@@ -15,7 +15,7 @@ public class SpringJenkinsIntegrationExampleApplication {
 	}
 
 	@GetMapping("/message")
-	public  message(){
+	public String message(){
 		return "Welcome to Intellij Idea!!!!!";
 	}
 
