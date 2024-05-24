@@ -14,6 +14,11 @@ public class SpringJenkinsIntegrationExampleApplication {
 		return "Welcome to Jenkins!!!!!";
 	}
 
+	@GetMapping("/message")
+	public String message(){
+		return "Welcome to Intellij Idea!!!!!";
+	}
+
 	public static void main(String[] args) {
 		SpringApplication.run(SpringJenkinsIntegrationExampleApplication.class, args);
 	}
